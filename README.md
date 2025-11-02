@@ -13,7 +13,7 @@ The idea came from reading this paper on the topic: https://pubmed.ncbi.nlm.nih.
 
 ### Download Binaries
 
-Go to the [Releases](https://github.com/yourusername/blink/releases) page and download the appropriate binary for your operating system:
+Go to the [Releases](https://github.com/sylvain-lec/blink/releases) page and download the appropriate binary for your operating system:
 
 - **macOS (Intel):** `blink-mac-amd64.tar.gz`
 - **macOS (Apple Silicon):** `blink-mac-arm64.tar.gz`
