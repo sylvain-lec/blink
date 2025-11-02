@@ -1,18 +1,19 @@
 package main
 
 import (
+	"flag"
 	"time"
 
 	"github.com/gen2brain/beeep"
 )
 
-var (
-	count int           = 15
-	units time.Duration = time.Second
-)
+var units time.Duration = time.Second
 
 func main() {
-	duration := time.Duration(count) * units
+	interval := flag.Int("interval", 15, "Interval in seconds between notifications")
+	flag.Parse()
+
+	duration := time.Duration(*interval) * units
 
 	for {
 		err := beeep.Notify("Blink", "blink twice!", "logo.jpeg")

@@ -5,7 +5,7 @@ The idea came from reading this paper on the topic: https://pubmed.ncbi.nlm.nih.
 
 ## Features
 
-- Sends desktop notifications at a configurable interval (every 15 seconds by default)
+- Sends desktop notifications at a configurable interval (every 15 seconds by default, change with the `-interval` flag)
 - Works on macOS (Intel & Apple Silicon), Linux, and Windows
 - Lightweight and easy to use
 
