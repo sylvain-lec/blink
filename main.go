@@ -18,7 +18,7 @@ func main() {
 		units = time.Minute
 	}
 
-	tickerBreak := time.NewTicker(1 * time.Minute)
+	tickerBreak := time.NewTicker(20 * time.Minute)
 	tickerBlink := time.NewTicker(time.Duration(*interval) * (units))
 	defer tickerBreak.Stop()
 	defer tickerBlink.Stop()
