@@ -30,3 +30,12 @@ You need [Go installed](https://golang.org/doc/install).
 git clone https://github.com/yourusername/blink.git
 cd blink
 go build -o blink
+```
+
+## Icon attribution:
+
+"Zenmap eye" icon by Jeremiah, from Icon Icons:
+https://icon-icons.com/icon/zenmap-eye/104119
+
+Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0):
+https://creativecommons.org/licenses/by/4.0/
