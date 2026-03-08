@@ -24,7 +24,7 @@ func onReady() {
 
 	go func() {
 		tickerBreak := time.NewTicker(10 * time.Minute)
-		tickerBlink := time.NewTicker(5 * time.Second)
+		tickerBlink := time.NewTicker(15 * time.Second)
 		defer tickerBreak.Stop()
 		defer tickerBlink.Stop()
 
